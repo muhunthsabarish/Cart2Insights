@@ -45,8 +45,7 @@ def load_dashboard_data():
 
 
 def load_reviews_data():
-    """Load customer review data."""
-    return load_csv("olist_order_reviews_dataset.csv")
+    return load_csv("reviews_cleaned.csv")
 
 
 def get_database_connection():
