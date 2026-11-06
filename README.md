@@ -60,3 +60,29 @@ Delivery analysis uses records with valid required timestamps.
 To demonstrate an end-to-end data analytics workflow
 and communicate e-commerce business performance through
 an interactive dashboard.
+
+## Project Structure
+
+Cart2Insights/
+├── data/
+│   └── cleaned/
+├── notebooks/
+│   └── 01_data_understanding.ipynb
+├── .gitignore
+├── Cart2Insights_Submission.zip
+├── README.md
+├── app.py
+├── customer_features.csv
+├── olist_order_reviews_dataset.csv
+├── orders_with_features.csv
+├── requirements.txt
+├── seller_features.csv
+└── sql_analysis.sql
+
+## How to Run
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the dashboard:
+   streamlit run app.py
