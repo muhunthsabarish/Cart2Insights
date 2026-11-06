@@ -2,7 +2,10 @@
 ### Decoding E-Commerce Performance
 
 ## Project Overview
-Cart2Insights is an end-to-end e-commerce analytics project that transforms transactional data into meaningful business insights using Python, SQL, feature engineering, statistical analysis and an interactive Streamlit dashboard.
+Cart2Insights is an end-to-end e-commerce analytics project
+that transforms transactional data into business insights
+using Python, SQL, feature engineering, statistical analysis
+and an interactive Streamlit dashboard.
 
 ## Technologies Used
 - Python
@@ -36,20 +39,24 @@ Cart2Insights is an end-to-end e-commerce analytics project that transforms tran
 
 These comparisons are observational and do not establish causation.
 
-## How to Run
+## Run the Dashboard
 
 Install dependencies:
 
 pip install -r requirements.txt
 
-Start the dashboard:
+Start the application:
 
 streamlit run app.py
 
 ## Data Notes
-The dashboard uses cleaned datasets included in the data/cleaned folder.
+The dashboard uses cleaned datasets in the data/cleaned folder.
 
-Sales figures are based on item prices and should not be interpreted as profit.
+Sales figures are based on item prices and are not profit.
+
+Delivery analysis uses records with valid required timestamps.
 
 ## Project Purpose
-To demonstrate an end-to-end e-commerce analytics workflow and communicate e-commerce business performance through an interactive dashboard.
+To demonstrate an end-to-end data analytics workflow
+and communicate e-commerce business performance through
+an interactive dashboard.

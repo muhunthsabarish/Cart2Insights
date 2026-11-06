@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
