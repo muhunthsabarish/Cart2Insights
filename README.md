@@ -50,7 +50,7 @@ Start the application:
 streamlit run app.py
 
 ## Data Notes
-The dashboard uses cleaned datasets in the data/cleaned folder.
+The dashboard uses cleaned datasets stored in the project repository.
 
 Sales figures are based on item prices and are not profit.
 
