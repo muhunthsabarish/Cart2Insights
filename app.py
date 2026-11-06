@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA = BASE_DIR / "data" / "cleaned"
+DATA = BASE_DIR
 
 orders = pd.read_csv(DATA / "orders_with_features.csv")
 customers = pd.read_csv(DATA / "customer_features.csv")
